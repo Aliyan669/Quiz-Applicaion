@@ -1,0 +1,158 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: Forte; 
+  
+ }
+ 
+ h2 {
+   text-align: center;
+   margin: 20px 0;
+ }
+ body{
+  background-color:  #FFD700;
+
+ }
+ .mainBox {
+   width: 70%;
+   /* height: 60vh; */
+   margin: -300px auto;
+   /* border: 1px solid black; */
+   background-color: black;
+   color: #FFD700;
+   padding: 12px;
+   font-size: 18px;
+   border-radius: 20px;
+   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+ }
+ ul{
+    list-style: none;
+ }
+ .header {
+   width: 100%;
+ }
+
+  .body{
+   margin: 10px 0;
+   padding: 5px;
+  
+   list-style: none;
+ 
+ }  
+ .body li{
+  margin: 30px; 
+      padding :10px;
+      width: 70%;
+      background-color: #FFD700;
+      color: black;
+      border-radius: 10px;
+      cursor: pointer;
+
+ }
+ .rename{
+  margin: -300px 0px;
+ font-size: 50px;
+ font-weight: bold; 
+ /* border: 1px solid black; */
+ }
+ .bottom {
+   display: flex;
+   justify-content: space-between;
+   padding: 8px;
+   align-items: center;
+ }
+ .bottom button {
+   color: black;
+   background-color: #FFD700;
+   padding: 8px;
+   border: none;
+   border-radius: 10px;
+   cursor: pointer;
+ }
+ 
+ .hide {
+   display: none;
+ }
+ .show {
+   display: block;
+ }
+ 
+ .disabled {
+   pointer-events: none;
+ }
+ 
+ .success{
+     background-color: green;
+
+ }
+ .countrval{
+   background-color: #FFD700;
+   color: black;
+   width: 50px;
+   padding: 5px;
+   border-radius: 10px;
+   cursor: pointer;
+ }
+ 
+ 
+ .wrong{
+     background-color: red;
+ }
+ .start{
+    display: flex;
+    justify-content: center; 
+    margin: 200px auto;
+   
+ }
+ #strtbtn{
+    width: 50%;
+    height: 12vh;
+    background-color: black;
+    color: #FFD700;
+    border-radius: 10px;
+    font-size: 34px;
+    cursor: pointer;
+ }
+ .revalue{
+    /* display: block ;  */
+    /* display: none; */
+  
+  font-size: 40px; 
+text-align: center;
+  margin: 380px auto; 
+   /* border: 1px solid blue;   */
+ }
+ /* .reparent{
+   display: flex;
+   justify-content: center;
+ } */
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:400px){
+  #htmlQuestion{
+    font-size: 22px;
+  }
+  .htmlList{
+    font-size: 14px;
+    
+  }
+  .revalue{
+    font-size: 30px;
+  }
+  .rename{
+    font-size :40px ;
+  }
+}

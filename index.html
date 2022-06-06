@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Application</title>
+  <link rel="shortcut icon" href="quiz.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+<body>
+    <div  class="start">
+        <button class="animate__animated animate__fadeInDown" id="strtbtn" onclick="start()">Start Quiz</button>
+    </div>
+    
+    <div id="quizBox">
+        <div class="header">
+            <h1 id="htmlQuestion"></h1>
+        </div>
+        <div >
+
+            <ul id="list">
+              <li onclick="checkAns(this)" class="htmlList" ></li>
+                <li onclick="checkAns(this)" class="htmlList"></li>
+                <li onclick="checkAns(this)" class="htmlList"></li>
+                <li onclick="checkAns(this)" class="htmlList"></li>
+            </ul>
+
+        </div>
+        <div class="bottom">
+            <span id="counterValue"></span>
+            <button class="hide" id="nextQuesBtn" onclick="nextQes()">NEXT QUES</button>
+        </div>
+    </div>
+    <div >
+        <h2 id="resultname"></h2>
+        <h1  id="resultValue"> </h1>
+    </div>
+
+</body>
+<script src="app.js"></script>
+</html>
+
+
+
+
+
